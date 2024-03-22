@@ -4,21 +4,23 @@
     flex-direction: column;
     align-items: center;
     padding-top: 250px;
+    margin: 0 auto;
 }
 
 .venda-de-carros-info {
-    width: 80%;
+    width: 90%;
     display: flex;
     align-items: center;
     gap: 45px;
+    margin: 0 auto;
 }
 
 .texto-venda {
-    font-size: 35px;
+    font-size: 23px;
 }
 
 .vender-carros-botao {
-    margin: 55px 0 0 700px;
+    margin: 55px 0 0 600px;
 }
 
 .comprar-carros {
@@ -27,7 +29,7 @@
     border-radius: 25px;
     color: var(--roxo);
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold ;
 }
 
