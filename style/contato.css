@@ -1,0 +1,25 @@
+.contato {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 250px 0;
+    padding-bottom: 400px;
+}
+
+.contatos-info {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 25px;
+}
+
+.num {
+    gap: 60px;
+
+}
+
+.informacoes-contato {
+    display: flex;
+    gap: 400px;
+}

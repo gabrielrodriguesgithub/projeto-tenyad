@@ -1,0 +1,42 @@
+.eventos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin: 0 auto;
+    padding-top: 250px;
+}
+
+.titulo-eventos {
+    margin-bottom: 75px;
+    font-size: 50px;
+    color: var(--roxo);
+}
+
+.info-eventos {
+    width: 80%;
+    display: flex;
+    gap: 40px;
+}
+
+.imagem-evento1 {
+    width: 45%;
+}
+
+.conteudo-info-eventos {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.titulo-evento {
+    color: var(--roxo);
+    font-size: 35px;
+}
+
+.evento-descricao {
+    font-size: 25px;
+    width: 80%;
+}
+

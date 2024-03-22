@@ -1,0 +1,39 @@
+.sobre-nos 
+{
+    margin: 300px  auto -35px;
+    padding-top: 90px;
+}
+
+.espaco__sobre-nos {
+    margin: 100px auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+
+.conteudo__sobre-nos {
+    width: 100%;
+}
+
+.sobre-nos-titulo {
+    font-size: 45px;
+    font-family: var(--font-chilanka);
+    color:var(--roxo);
+    font-weight: bold;
+}
+
+.sobre-nos-texto {
+    font-size: 30px;
+    font-family: var(--font-chilanka)
+}
+
+.imagem-sobre-nos-familia {
+    width: 700px;
+
+}
+
+.imagem-estendendo-a-mao {
+    width: 700px;
+}

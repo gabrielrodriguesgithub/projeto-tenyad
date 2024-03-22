@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-chilanka) ;
+}
+
+:root {
+    --branco: #ffffff;
+    --font-truculenta: "Truculenta", sans-serif;
+    --font-chilanka: "Chilanka", cursive;
+    --roxo: #221133;
+    --cinza: rgb(183, 182, 183);
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.login {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.lado-esquerdo {
+    width: 50%;
+    background-color: var(--roxo);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.titulo__login, .subtitulo__login {
+    font-size: 45px;
+    color: var(--branco);
+}
+
+.subtitulo__login {
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+.botao__entrar-login, .botao__entrar-login-direito {
+    background: transparent;
+    color: var(--branco);
+    padding: 25px;
+    width: 175px;
+    border-radius: 25px;
+    border: 1px solid var(--branco);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.lado-direito {
+    width: 50%;
+    background-color:var(--branco);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.formulario-login {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.botao__criar-conta {
+    background: transparent;
+    border: 0;
+    font-size: 50px;
+    color: var(--roxo);
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.subtitulo-direito__login {
+    color: var(--cinza);   
+    font-size: 15px; 
+}
+
+
+.input__login {
+    padding: 15px;
+    width: 345px;
+}
+
+.botao__entrar-login-direito {
+    border: 1px solid var(--roxo);
+    color: var(--roxo);
+}
