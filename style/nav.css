@@ -101,3 +101,7 @@ body{
 .esconder-div {
     visibility: hidden;
 }
+
+.maislongo {
+    visibility: hidden;
+}
