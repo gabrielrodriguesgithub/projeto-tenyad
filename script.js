@@ -4,7 +4,7 @@ botaoLogar.addEventListener("click",() => {
     window.location.href = "index.html"
 })
 
-var inputEmail = document.querySelector(".input__login")
+var inputEmail = document.querySelector(".input__login").value
 var botaoEnviar = document.querySelector(".botao__entrar-login-direito")
 
 botaoEnviar.addEventListener("click", () => {
