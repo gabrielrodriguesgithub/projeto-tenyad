@@ -97,3 +97,8 @@ body {
     border: 1px solid var(--roxo);
     color: var(--roxo);
 }
+
+.mensagem-erro {
+    color: red;
+    font-size: 12px;
+}
