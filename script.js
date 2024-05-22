@@ -7,9 +7,9 @@ var texto = document.querySelector(".mensagem-erro");
 
 var botaoEnviar = document.querySelector(".botao__entrar-login-direito")
 
-botaoEnviar.addEventListener("click", (event) => {
+botaoEnviar.addEventListener("click", () => {
     var inputEmail = document.querySelector(".input__login").value
-    
+    alert("sasad")
     if(inputEmail.search("@") >= 0) &&
     (inputEmail.indexOf(".", inputEmail.search("@")) == 1) &&
     (inputEmail.search(" " == -1)) 
