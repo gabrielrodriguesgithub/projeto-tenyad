@@ -7,7 +7,7 @@ var texto = document.querySelector(".mensagem-erro");
 
 var botaoEnviar = document.querySelector(".botao__entrar-login-direito")
 
-botaoEnviar.addEventListener("submit", (event) => {
+botaoEnviar.addEventListener("click", (event) => {
     var inputEmail = document.querySelector(".input__login").value
     
     if(inputEmail.search("@") >= 0) &&
