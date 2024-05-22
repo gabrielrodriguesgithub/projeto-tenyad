@@ -1,10 +1,3 @@
-const botaoLogar = document.getElementById("logar");
-
-// Adiciona um listener para o evento de clique no botão de login
-botaoLogar.addEventListener("click", () => {
-    // Redireciona para a página "index.html" quando o botão é clicado
-    window.location.href = "index.html";
-});
 
 // Seleciona o elemento que exibirá mensagens de erro
 var texto = document.querySelector(".mensagem-erro");
