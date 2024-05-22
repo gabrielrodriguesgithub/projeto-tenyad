@@ -7,15 +7,20 @@ var texto = document.querySelector(".mensagem-erro");
 
 var botaoEnviar = document.querySelector(".botao__entrar-login-direito")
 
-botaoEnviar.addEventListener("click", () => {
+botaoEnviar.addEventListener("submit", (event) => {
     var inputEmail = document.querySelector(".input__login").value
-    if(inputEmail.search("@") >= 0) {
-        if(inputEmail.indexOf(".", inputEmail.search("@")) == 1) {
-            alert("foi")
-        }
+    
+    if(inputEmail.search("@") >= 0) &&
+    (inputEmail.indexOf(".", inputEmail.search("@")) == 1) &&
+    (inputEmail.search(" " == -1)) 
+    {
+        
+    }
+        
     }else {
         texto.classList.remove("hide");
         texto.innerHTML = "E-mail invalido";
+        event.preventDefault();
     }
         
 })
