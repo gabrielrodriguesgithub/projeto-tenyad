@@ -6,7 +6,7 @@ var texto = document.querySelector(".mensagem-erro");
 var botaoEnviar = document.querySelector(".botao__entrar-login-direito");
 
 // Adiciona um listener para o evento de clique no botão de enviar
-botaoEnviar.addEventListener("click", () => {
+botaoEnviar.addEventListener("click", (event) => {
     // Obtém o valor do campo de email
     var inputEmail = document.querySelector(".input__login").value;
 
@@ -19,6 +19,6 @@ botaoEnviar.addEventListener("click", () => {
         // Se o formato do email estiver inválido, exibe uma mensagem de erro
         texto.classList.remove("hide");
         texto.innerHTML = "E-mail inválido";
-        return;
+        event.preventDefault();
     }
 });
