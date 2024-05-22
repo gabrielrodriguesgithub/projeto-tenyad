@@ -17,7 +17,7 @@ botaoEnviar.addEventListener("click", () => {
         
     }
         
-    }else {
+    else {
         texto.classList.remove("hide");
         texto.innerHTML = "E-mail invalido";
         return;
