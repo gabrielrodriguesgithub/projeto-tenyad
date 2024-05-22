@@ -10,18 +10,18 @@ var botaoEnviar = document.querySelector(".botao__entrar-login-direito")
 botaoEnviar.addEventListener("click", () => {
     var inputEmail = document.querySelector(".input__login").value
     alert("sasad")
-    //if(inputEmail.search("@") >= 0) &&
-    //(inputEmail.indexOf(".", inputEmail.search("@")) == 1) &&
+    if(inputEmail.search("@") >= 0 ) &&
+    (inputEmail.indexOf(".", inputEmail.search("@"))) 
     //(inputEmail.search(" " == -1)) 
     //{
-        
+        )}
     //}
         
-    //else {
-      //  texto.classList.remove("hide");
-       // texto.innerHTML = "E-mail invalido";
-        //return;
-    //}
+    else {
+        texto.classList.remove("hide");
+        texto.innerHTML = "E-mail invalido";
+        return;
+    }
         
 })
 
