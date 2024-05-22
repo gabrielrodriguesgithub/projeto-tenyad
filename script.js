@@ -20,7 +20,7 @@ botaoEnviar.addEventListener("submit", (event) => {
     }else {
         texto.classList.remove("hide");
         texto.innerHTML = "E-mail invalido";
-        event.preventDefault();
+        return;
     }
         
 })
