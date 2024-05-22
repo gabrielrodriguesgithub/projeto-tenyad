@@ -15,6 +15,7 @@ botaoEnviar.addEventListener("click", (event) => {
         // Se o formato do email estiver válido, você pode realizar outras ações aqui
         // Por exemplo, você pode enviar o formulário ou fazer algum outro processamento
         alert("O email é válido");
+        texto.classList.add("hide");
     } else {
         // Se o formato do email estiver inválido, exibe uma mensagem de erro
         texto.classList.remove("hide");
