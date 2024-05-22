@@ -17,7 +17,7 @@ botaoEnviar.addEventListener("click", () => {
 
     if (inputEmail.includes("@") && inputEmail.includes(".", inputEmail.indexOf("@"))) {
         alert("O email é válido");
-        window.location.href = "index.html";
+        
 });
     } else {
         
