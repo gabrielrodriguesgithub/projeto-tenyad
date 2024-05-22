@@ -102,3 +102,7 @@ body {
     color: red;
     font-size: 12px;
 }
+
+.hide {
+    display: none;
+}
