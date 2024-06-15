@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="style/registro.css">
+
+    <link rel="icon" href="image/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <section class="registro">
+        <div class="lado-esquerdo">
+            <h1 class="titulo__registro">Crie sua conta!</h1>
+            <h2 class="subtitulo__registro">Para se conectar conosco,<br> preencha suas informações pessoais</h2>
+        </div>
+        <div class="lado-direito">
+
+
+            <form class="formulario-registro" action="registro.jsp" method="POST">
+
+
+                <input class="input__registro" type="text" id="txtNome" name="txtNome" placeholder="Nome completo" >
+
+                
+                <input class="input__login input__registro" type="email" id="txtEmail" name="txtEmail" placeholder="E-mail" >
+                <p class="mensagem-erro hide">oi</p>
+                <input class="input__registro" type="password" id="txtSenha" name="txtSenha" placeholder="Senha" >
+                <button class="botao__criar-conta" type="submit">Criar conta</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

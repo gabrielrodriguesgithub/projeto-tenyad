@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-truculenta);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --branco : #ffffff;
+    --preto: #000000;
+    --roxo: rgb(99, 20, 117);
+    --font-truculenta: "Truculenta", sans-serif;
+    --font-chilanka: "Truculenta", sans-serif;
+}
+
+.dark {
+    --branco : #000000;
+    --preto: #ffffff;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.navigation{
+    width: 100%;
+    height: 175px;
+    background-image: linear-gradient(45deg, black, #221133);
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, .5);
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin: 0 150px;
+    gap: 150px;
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+
+}
+
+.options__menu {
+    display: flex;
+}
+
+.options {
+    display: flex;
+    gap: 50px;
+    font-size: 25px;
+}
+
+.option-link {
+    list-style: none;
+}
+
+.link-text {
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 20px;
+    font-family: var(--font-truculenta);
+}
+
+.login-cadastro {
+    display: flex;
+}
+
+.log {
+    background: transparent;
+    border: none;
+}
+
+.log a{
+    font-size: 15px;  
+    font-weight: 700;
+    color: var(--branco);
+    font-family: var(--font-truculenta);
+    text-decoration: none;
+}
+
+#login {
+    border-right: 2px solid var(--branco);
+    margin-right: 10px;
+    padding: 0 12px;
+}
+
+.esconder-div {
+    visibility: hidden;
+}
+
+.maislongo {
+    visibility: hidden;
+}

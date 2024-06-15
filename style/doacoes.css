@@ -1,0 +1,28 @@
+.doacoes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 300px;
+    margin-bottom: 400px;
+}
+
+.realizar-doacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 350px;
+}
+
+.texto-doacoes {
+    font-size: 30px;
+}
+
+.botao-doar {
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--branco);
+    background-color: var(--roxo);
+    padding: 25px;
+    border-radius: 25px;
+}

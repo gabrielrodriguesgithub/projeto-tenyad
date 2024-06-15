@@ -1,0 +1,38 @@
+.carros-a-venda {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 250px;
+    margin: 0 auto;
+}
+
+.venda-de-carros-info {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin: 0 auto;
+}
+
+.texto-venda {
+    font-size: 23px;
+}
+
+.vender-carros-botao {
+    margin: 55px 0 0 600px;
+}
+
+.comprar-carros {
+    padding: 30px;
+    border: 1px solid var(--roxo);
+    border-radius: 25px;
+    color: var(--roxo);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold ;
+}
+
+.comprar-carros:hover {
+    background-color: ghostwhite;
+}

@@ -1,0 +1,17 @@
+.onde-nos-encontrar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.mapa {
+    display: flex ;
+    align-items: center;
+    gap: 45px;
+}
+
+.mapa-google {
+    width: 1000px;
+}

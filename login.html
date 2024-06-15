@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style/login.css">
+    <link rel="icon" href="image/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script> 
+</head>
+<body>
+    <section class="login">
+        <div class="lado-esquerdo">
+            <h1 class="titulo__login">Seja bem vindo!</h1>
+            <h2 class="subtitulo__login">Para se manter conectado conosco,<br> por favor se logue com suas informações pessoais</h2>
+            <button class="botao__entrar-login">Entrar</button>
+        </div>
+        <div class="lado-direito">
+            <a class="botao__criar-conta" href="registro.html">Criar conta </a>
+            
+            <h2 class="subtitulo-direito__login">Se você já tem uma conta, use seu e-mail e senha para se logar:</h2>
+            <form class="formulario-login">
+                <input class="input__login" type="email" placeholder="E-mail">
+                <p class="mensagem-erro hide">oi</p>
+                <input class="input__login" type="password" placeholder="Senha">
+            </form>
+            <button class="botao__entrar-login-direito" id="logar">Entrar</button>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,86 @@
+body {
+    font-family: 'Truculenta', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.registro {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    height: 500px;
+}
+
+.lado-esquerdo, .lado-direito {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lado-esquerdo {
+    background-color: #221133;
+    color: white;
+    width: 50%;
+}
+
+.lado-direito {
+    width: 50%;
+}
+
+.titulo__registro {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.subtitulo__registro {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.formulario-registro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+}
+
+.input__registro {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.botao__criar-conta {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #221133;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botao__criar-conta:hover {
+    background-color: #221133;
+}
+
+
+.mensagem-erro {
+    color: red;
+    font-size: 12px;
+}
+
+.hide {
+    display: none;
+}
